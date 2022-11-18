@@ -1,7 +1,7 @@
 #!/bin/bash
 
 text=$(
-  cat <<-EOF
+  cat <<EOF
 this is line 1
 this is line 2
 EOF
