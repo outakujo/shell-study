@@ -28,8 +28,8 @@ readKey() {
 }
 
 # 去除结尾\r
-trim(){
-  text=`echo $1 | tr -d "\r"`
+trim() {
+  text=$(echo $1 | tr -d "\r")
   echo $text
 }
 
